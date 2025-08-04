@@ -6,9 +6,45 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
 
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <a href="#top">
+        <span class="terminal-prompt">$cd/home/yuliu</span>
+        <span class="cursor">|</span>
+      </a>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="#biography" class="nav-link">Biography</a>
+      </li>
+      <li class="nav-item">
+        <a href="#news" class="nav-link">News</a>
+      </li>
+      <li class="nav-item">
+        <a href="#publications" class="nav-link">Publications</a>
+      </li>
+      <li class="nav-item">
+        <a href="#awards" class="nav-link">Awards</a>
+      </li>
+      <li class="nav-item">
+        <a href="files/CV_YuLiu.pdf" class="nav-link" target="_blank">CV</a>
+      </li>
+    </ul>
+    <div class="nav-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </div>
+</nav>
+
+<div id="top">
 <table>
 	<tbody>
 		<tr>
@@ -22,7 +58,6 @@
 					Department of Medicine and Therapeutics <br>
 					Faculty of Medicine <br>
 					The Chinese University of Hong Kong (CUHK) <br>
-					<br>
 					<!-- Office:  <br> -->
           Email: <a href="mailto:leni.yuliu@gmail.com" target="_top">leni.yuliu@gmail.com</a>; 
           <a href="mailto:yu.liu@link.cuhk.edu.hk" target="_top">yu.liu@link.cuhk.edu.hk</a>
@@ -47,8 +82,9 @@
 		</tr><tr>
 	</tr></tbody>
 </table>
+</div>
 
-<h2>Biography</h2>
+<h2 id="biography">Biography</h2>
 <p>
 	I am currently a Ph.D. candidate at <a href="https://www.med.cuhk.edu.hk/">Faculty of Medicine</a>, <a href="https://www.cuhk.edu.hk/english/">The Chinese University of Hong Kong</a>.
 	Previously, I received M.Phil. degree from Biomedical Engineering at <a href="https://ev.buaa.edu.cn">Beihang University</a> in 2021, and B.Eng. degree(Honor) from Biomedical Engineering at <a href="https://eweb.hebut.edu.cn">Hebei University of Technology</a> in 2018.
@@ -63,7 +99,7 @@
 	Recently, I focus on using CFD technique to investigate the hemodynamic patterns and clinical implications of intracranial atherosclerotic stenosis.
 </p>
 
-<h2>News</h2>
+<h2 id="news">News</h2>
 <div style="height: 150px; overflow: auto;">
 <ul>
   <li>
@@ -94,7 +130,7 @@
 
 
 
-    <h2> Publications 
+    <h2 id="publications"> Publications 
       [<a href="https://scholar.google.com/citations?user=tRdqXY4AAAAJ">Google Scholar</a>]
     </h2>
     <table id="tbPublications" width="100%">
@@ -261,7 +297,7 @@
     * indicates equal contribution.<br>
     † indicates corresponding authorship.
 
-<h2>Selected Awards</h2>
+<h2 id="awards">Selected Awards</h2>
 <table>
 	<tbody>
 		<tr><td> <b>Research postgraduate scholarship</b>, The Chinese University of Hong Kong</td></tr>
