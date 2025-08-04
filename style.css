@@ -344,13 +344,13 @@ h1, h2, h3 {
 }
 
 /* Specific scroll margin for navigation targets */
-#biography, #news, #publications, #awards {
+#biography, #news, #publications, #awards, #misc {
 	scroll-margin-top: 80px;
 }
 
 h1 {
 	font-size: 165%;
-	padding-bottom: 0.3em;
+	padding-bottom: 0.2em;
 }
 
 h2 {
