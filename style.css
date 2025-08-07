@@ -13,7 +13,7 @@
 }
 
 .nav-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     display: flex;
@@ -237,6 +237,34 @@
     }
 }
 
+/* Tablet responsive */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .nav-container {
+        max-width: 95%;
+        padding: 0 30px;
+    }
+    
+    body {
+        max-width: 95%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Large screens optimization */
+@media screen and (min-width: 1400px) {
+    .nav-container {
+        max-width: 1300px;
+        padding: 0 60px;
+    }
+    
+    body {
+        max-width: 1300px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
 /* Adjust body padding to account for fixed navbar */
 body { 
   font-family: Georgia, serif;
@@ -251,7 +279,7 @@ body {
   padding-right: 50px;
   padding-top: 90px; /* Increased to prevent content blocking */
   padding-bottom: 30px;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 html {
