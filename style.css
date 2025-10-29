@@ -410,6 +410,10 @@ h1, h2, h3 {
 #biography, #news, #publications, #awards, #misc {
 	scroll-margin-top: 80px;
 }
+/* Specific scroll margin for navigation targets */
+#biography, #news, #publications, #publications-journals, #publications-conferences, #awards, #misc {
+    scroll-margin-top: 80px;
+}
 
 h1 {
 	font-size: 165%;
