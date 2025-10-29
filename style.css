@@ -643,6 +643,19 @@ table.imgtable, table.imgtable td {
     text-align: left;
 }
 
+/* Visitor map fallback text styling */
+#clustrmaps-widget .map-fallback {
+    margin-top: 6px;
+}
+
+#clustrmaps-widget .map-fallback small {
+    color: #666666;
+}
+
+[data-theme="dark"] #clustrmaps-widget .map-fallback small {
+    color: #8b949e;
+}
+
 /* Dark Theme Styles */
 [data-theme="dark"] {
     background-color: #1a1a1a;
