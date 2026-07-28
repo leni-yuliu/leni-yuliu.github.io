@@ -644,15 +644,15 @@ table.imgtable, table.imgtable td {
 }
 
 /* Visitor map fallback text styling */
-#clustrmaps-widget .map-fallback {
+#visitor-map-container .map-fallback {
     margin-top: 6px;
 }
 
-#clustrmaps-widget .map-fallback small {
+#visitor-map-container .map-fallback small {
     color: #666666;
 }
 
-[data-theme="dark"] #clustrmaps-widget .map-fallback small {
+[data-theme="dark"] #visitor-map-container .map-fallback small {
     color: #8b949e;
 }
 
